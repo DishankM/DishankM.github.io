@@ -106,32 +106,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        {/* Project 4 */}
-        {/* <div className="projectCard" id="project4">
-          <div className="projectNumber leftNumber">04</div>
-          <div className="projectContent rightProjectContent">
-            <div className="projectSkillsContainer">
-              <img className="projectSkill" src={NextJsLogo} alt="Next.js" />
-              <img className="projectSkill" src={TailwindLogo} alt="Tailwind" />
-              <img className="projectSkill" src={VercelLogo} alt="Vercel" />
-            </div>
-            <h2 className="projectHeading">Granit</h2>
-            <p className="projectSubHeading">
-              An architectural website to plan your building or home (Hebrew
-              Language).
-            </p>
-            <div className="btnGroup">
-              <button className="btn btnProject">Read More</button>
-              <a href="">
-                <i title="GitHubLink" className="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" className="fa-solid fa-link icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>  */}
       </div>
     </section>
   );
