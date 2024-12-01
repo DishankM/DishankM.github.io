@@ -1,6 +1,6 @@
 import React from "react";
 import "./indexs.css";
-import s from ''
+
 // Import project and skill images
 import HTMLLogo from "../assets/stack/HTML.png";
 import CSSLogo from "../assets/stack/CSS.png";
