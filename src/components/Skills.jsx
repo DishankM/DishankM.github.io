@@ -1,5 +1,5 @@
 import React from "react";
-import './indexs.css'
+import './Skills.css'
 import vector from '../assets/Images/userAsset/blob vector.png'
 
 import reactP from '../assets/stack/React.png'

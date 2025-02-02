@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -13,17 +14,7 @@ const Footer = () => {
     <footer>
       <div className="container footerContainer">
         <div className="footerFadedText">Dishank Mahajan</div>
-        <div className="linkContainer">
-          <div>
-            <a href="#projects">Projects</a>
-          </div>
-          <div>
-            <a href="#skills">Skills</a>
-          </div>
-          <div>
-            <a href="#contactMe">Contact Me</a>
-          </div>
-        </div>
+        <div className="linkContainer"></div>
         <div className="iconContainer">
           <a href="https://www.linkedin.com/in/dishank-mahajan-56a0a3262/?originalSubdomain=in" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />

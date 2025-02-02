@@ -1,0 +1,62 @@
+/* Footer Section Start  */
+footer {
+    background: #343d68;
+    position: relative;
+    padding: 5rem;
+  }
+  
+  .footerFadedText {
+    font-size: 5em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #535c87;
+    user-select: none;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+  
+  .linkContainer {
+    display: flex;
+    gap: 1.2em;
+  }
+  
+  .linkContainer div a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+  }
+  
+  .linkContainer div a:hover{
+    color: #e84949;
+  }
+  .icon {
+    font-size: 26px;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #0077b5; /* Change color on hover */
+  }
+  
+
+  @media (max-width: 768px) {
+    .footerFadedText{
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .footerFadedText{
+      font-size: 2rem;
+    }
+
+  }

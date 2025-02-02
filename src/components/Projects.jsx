@@ -1,5 +1,5 @@
 import React from "react";
-import "./indexs.css";
+import "./Project.css";
 
 // Import project and skill images
 import HTMLLogo from "../assets/stack/HTML.png";
@@ -92,8 +92,8 @@ const Projects = () => {
               <img className="projectSkill" src={VercelLogo} alt="Vercel" />
             </div>
             <h2 className="projectHeading">To-Do List Maker</h2>
-            <p className="projectSubHeading">
-            A sleek and responsive to-do list application built using React and Tailwind CSS. The app allows users to effortlessly add, edit, and delete tasks, with a clean UI for managing daily tasks efficiently.
+            <p className="projectSubHeading" >
+            A sleek and responsive to-do list application built using React and Tailwind CSS. 
             </p>
             <div className="btnGroup">
               <button className="btn btnProject">Read More</button>

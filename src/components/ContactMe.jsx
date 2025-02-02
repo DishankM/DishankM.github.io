@@ -1,16 +1,18 @@
 import React from "react";
-import './indexs.css'
+import './ContactMe.css'
 
 const ContactMe = () => {
+
+ 
   return (
-    <section id="contactMe" className="contactMeSection">
-      <div className="container">
-        <h2>Contact Me</h2>
-        <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
+    <section id="contactMe" >
+      <div className="text-center">
+        <h2 className="font-semibold text-3xl">Contact Me</h2>
+        <h3 className="font-medium">Questions, Thoughts, Or Just Want To Say Hello?</h3>
         <div className="contactUsForm">
-          <form>
+          <form >
             <div className="formFieldContainer">
-              <input className="formField" type="text" placeholder="Enter your name" />
+              <input className="formField " type="text" placeholder="Enter your name" />
             </div>
             <div className="formFieldContainer">
               <input className="formField" type="email" placeholder="Enter your email address" />

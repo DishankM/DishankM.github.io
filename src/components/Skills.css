@@ -1,0 +1,177 @@
+/* Skill Section Start  */
+.skillContainer {
+  position: relative;
+  display: flex;
+  padding: 5rem;
+  margin: 10rem auto;
+  gap: 30px;
+  max-width: 1440px;
+}
+
+.leftSkillContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.skillHeading {
+  color: #e84949;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.skillHeading span {
+  font-size: 90px;
+}
+
+.skillSubHeading {
+  margin-top: 1rem;
+  width: 85%;
+  text-align: justify;
+}
+
+.skillSubHeading p {
+  margin: 15px 0;
+}
+
+.rightSkillContainer {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.blobStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: blobAnimation 3s linear infinite;
+  max-width: 80%;
+}
+
+@keyframes blobAnimation {
+  50% {
+    top: 54%;
+    left: 46%;
+  }
+}
+
+.skillsLogo {
+  width: 80px;
+  transition: all 0.5s;
+}
+
+.skillsLogo:hover {
+  transform: scale(1.2);
+}
+
+.skillFadedText {
+  position: absolute;
+  font-size: 12em;
+  right: -9%;
+  bottom: -35%;
+  user-select: none;
+  color: #e7e7e7;
+  font-weight: bold;
+  z-index: -1;
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 992px) {
+  .skillContainer {
+    padding: 3rem;
+    margin: 5rem auto;
+  }
+
+  .skillHeading {
+    font-size: 40px;
+  }
+
+  .skillHeading span {
+    font-size: 70px;
+  }
+
+  .skillFadedText {
+    font-size: 8em;
+    right: -5%;
+    bottom: -25%;
+  }
+}
+
+/* Small Screens (Large Phones) */
+@media (max-width: 768px) {
+  .skillContainer {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 3rem auto;
+    gap: 40px;
+  }
+
+  .leftSkillContainer,
+  .rightSkillContainer {
+    width: 100%;
+  }
+
+  .skillSubHeading {
+    width: 100%;
+  }
+
+  .skillFadedText {
+    font-size: 6em;
+    right: -3%;
+    bottom: -15%;
+  }
+
+  .skillsLogo {
+    width: 70px;
+  }
+}
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+  .skillContainer {
+    padding: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .skillHeading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .skillHeading span {
+    font-size: 50px;
+  }
+
+  .skillFadedText {
+    font-size: 4em;
+    right: -2%;
+    bottom: -10%;
+  }
+
+  .skillsLogo {
+    width: 50px;
+  }
+
+  .blobStyle {
+    animation: none;
+    max-width: 60%;
+  }
+}
+
+/* Very Small Screens */
+@media (max-width: 360px) {
+  .skillsLogo {
+    width: 45px;
+  }
+
+  .skillFadedText {
+    font-size: 3.5em;
+  }
+}

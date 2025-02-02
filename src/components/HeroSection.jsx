@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import './indexs.css'
+import './HeroSection.css'
 import dots from '../assets/Images/userAsset/dots.png'
 import cube from '../assets/Images/userAsset/cube.png'
 import circle from '../assets/Images/userAsset/circle.png'
@@ -16,6 +16,7 @@ const HeroSection = () => {
         "Web Developer",
         "Frontend Developer",
         "Backend Developer",
+        "Data Analytics",
         "Coder",
       ],
       typeSpeed: 80,
