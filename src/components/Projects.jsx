@@ -58,10 +58,9 @@ const Projects = () => {
               <img className="projectSkill" src={ReduxLogo} alt="Redux" />
               <img className="projectSkill" src={VercelLogo} alt="Vercel" />
             </div>
-            <h2 className="projectHeading">MBBS ABROAD Page</h2>
+            <h2 className="projectHeading">Study ABROAD</h2>
             <p className="projectSubHeading">
-            This is a responsive landing page for the "Study MBBS Abroad" program, designed to help students explore MBBS opportunities in different countries. 
-            The page features country listings, program details, a lead generation form, and a user-friendly UI/UX.
+            This is a responsive landing page for the "Study MBBS Abroad" program, designed to help students explore MBBS opportunities. 
             </p>
             <div className="btnGroup">
               <button className="btn btnProject">
