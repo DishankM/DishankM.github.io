@@ -1,23 +1,36 @@
-/* Projects Section  */
+/* Projects Section */
 .projectSection {
-    margin-top: 4rem;
-    background-color: #e7e7e7;
-  }
-  
-  .projectTitle {
-    color: #e84949;
-    font-size: 90px;
-    line-height: 75px;
-    padding: 50px 0 30px;
-    text-align: center;
-  }
-  
-  .projectContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 120px;
-    width: 100%; 
-  }
+  margin-top: 4rem;
+  background-color: #e7e7e7;
+}
+
+.projectTitle {
+  color: #e84949;
+  font-size: 90px;
+  line-height: 75px;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.projectCard {
+  width: 90%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: 0px 0px 40px #1f1f1f;
+  margin: 2rem auto;
+  z-index: 2;
+}
   
   #project1{
     background-image: url("../assets/projects/Project1.png");
@@ -168,106 +181,125 @@
   }
   
 
-  @media (max-width: 480px) {
-    .projectSection{
-        margin: 0.5rem;
+  @media (max-width: 768px) {
+    .projectTitle {
+      font-size: 70px;
+      line-height: 60px;
+      padding: 40px 0 20px;
     }
-    .projectTitle{
-        font-size: 40px;
-        line-height: 50px;
+  
+    .projectContainer {
+      gap: 80px;
     }
-    .projectContainer{
-        gap: 80px;
-        
+  
+    .projectCard {
+      height: 450px;
+      width: 85%;
     }
-    .projectCard{
-       height: 450px;
+  
+    .projectNumber {
+      font-size: 150px;
     }
-    .projectNumber{
-        font-size: 50px;
-        font-weight: 300px;
-       
+  
+    .projectHeading {
+      font-size: 40px;
     }
-    .rightNumber{
-        top: -35px;
-        right: -30px;
+  
+    .projectSubHeading {
+      width: 85%;
+      font-size: 14px;
     }
-    .leftNumber{
-        top: -35px;
-        right: -35px;
-    }
-    .projectSkillsContainer {
-        max-width: 100%;
-        gap: 1em;
-        
-      }
-      
-      .projectSkill {
-        width: 20px;
-        
-      }
-      .projectHeading {
-        font-size: 25px;
-        font-weight: bold;
-        margin-left: 10px;
-        line-height: 2rem;
-      }
-      .projectContainer{
-        padding: auto;
-        
-      }
-      .projectSubHeading{
-        width: 250px;
-      }
-      
   }
-
-  @media (max-width: 720px) {
-    .projectSection{
-        margin: 1dvb;
+  
+  /* Small Devices (Large Phones) */
+  @media (max-width: 576px) {
+    .projectTitle {
+      font-size: 50px;
+      line-height: 50px;
+      padding: 30px 0 15px;
     }
-    .projectTitle{
-        font-size: 100px;
-        line-height: 80px;
+  
+    .projectCard {
+      height: 400px;
+      width: 90%;
     }
-    .projectContainer{
-        gap: 100px;
-        
+  
+    .projectNumber {
+      font-size: 100px;
     }
-    .projectCard{
-       height: 500px;
+  
+    .projectHeading {
+      font-size: 30px;
+      line-height: 2.2rem;
     }
-    .projectNumber{
-        font-size: 90px;
-        font-weight: 400px;
-       
+  
+    .projectSubHeading {
+      width: 90%;
+      font-size: 13px;
     }
-    .rightNumber{
-        top: -35px;
-        right: -30px;
-    }
-    .leftNumber{
-        top: -35px;
-        right: -35px;
-    }
+  
     .projectSkillsContainer {
-        max-width: 70%;
-        gap: 1em;
-        
-      }
-      
-      .projectSkill {
-        width: 30px;
-        
-      }
-      .projectHeading {
-        font-size: 35px;
-        font-weight: bold;
-        margin-left: 10px;
-        line-height: 2rem;
-      }
-      .projectSubHeading{
-        width: 250px;
-      }
-      
+      max-width: 100%;
+    }
+  
+    .projectSkill {
+      width: 30px;
+    }
+  }
+  
+  /* Extra Small Devices (Phones) */
+  @media (max-width: 480px) {
+    .projectSection {
+      margin-top: 2rem;
+    }
+  
+    .projectTitle {
+      font-size: 40px;
+    }
+  
+    .projectCard {
+      height: 350px;
+    }
+  
+    .projectNumber {
+      font-size: 80px;
+    }
+  
+    .projectContent {
+      padding: 1.5em;
+    }
+  }
+  
+  /* Smallest Devices (Old Phones) */
+  @media (max-width: 350px) {
+    .projectTitle {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    .projectCard {
+      height: 300px;
+      width: 95%;
+    }
+  
+    .projectNumber {
+      font-size: 60px;
+    }
+  
+    .projectHeading {
+      font-size: 25px;
+      line-height: 2rem;
+    }
+  
+    .projectSubHeading {
+      width: 100%;
+      font-size: 12px;
+    }
+  
+    .icon {
+      font-size: 28px;
+    }
+    .projectSkillsContainer{
+      display: none;
+    }
   }

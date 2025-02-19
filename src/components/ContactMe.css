@@ -32,10 +32,10 @@
     flex-direction: column;
     gap: 30px;
   }
-  /* 
+  
   .formFieldContainer{
     width: 100%;
-  } */
+  }
   
   .formField {
     width: 100%;
@@ -76,4 +76,15 @@
   
   /* Contact Me Section Ends  */
   
-  
+  @media (max-width: 360px) {
+    .formField{
+      width: 80%;
+    }
+    .formBtn .btn{
+      width: 80%;
+      padding: auto;
+      font-size: large;
+      border-radius: 12px;
+    }
+
+  }

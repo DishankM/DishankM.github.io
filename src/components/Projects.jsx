@@ -14,6 +14,10 @@ import ReduxLogo from "../assets/stack/Redux.svg";
 import VercelLogo from "../assets/stack/Vercel.svg";
 
 const Projects = () => {
+  // const goto = (e) => {
+  //   e.preventDefalut();
+    
+  // }
   return (
     <section id="projects" className="projectSection">
       <h2 className="projectTitle">Projects</h2>
@@ -36,10 +40,10 @@ const Projects = () => {
             </div>
             <h2 className="projectHeading">Add To Card</h2>
             <p className="projectSubHeading">
-            this is a React-based e-commerce web application, typically called an "Add to Cart" project. which is use to Add to Cart" or "Remove Item."
+            This is a React-based E-commerce web application, typically called an "Add to Cart" project. which is use to Add to Cart" or "Remove Item."
             </p>
             <div className="btnGroup">
-              <button className="btn btnProject">Read More</button>
+              <button className="btn btnProject" ><a href="https://github.com/DishankM/study-mbbs-abroad">Know More</a></button>
               <a href="">
                 <i title="GitHubLink" className="fa-brands fa-github icon"></i>
               </a>
@@ -68,7 +72,7 @@ const Projects = () => {
               A Web application which generate random password.
             </p>
             <div className="btnGroup">
-              <button className="btn btnProject">Read More</button>
+              <button className="btn btnProject">Know More</button>
               <a href="">
                 <i title="GitHubLink" className="fa-brands fa-github icon"></i>
               </a>
@@ -96,7 +100,7 @@ const Projects = () => {
             A sleek and responsive to-do list application built using React and Tailwind CSS. 
             </p>
             <div className="btnGroup">
-              <button className="btn btnProject">Read More</button>
+              <button className="btn btnProject">Know More</button>
               <a href="">
                 <i title="GitHubLink" className="fa-brands fa-github icon"></i>
               </a>

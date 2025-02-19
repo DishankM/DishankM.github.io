@@ -40,7 +40,7 @@ const HeroSection = () => {
           I’m a software developer and here is my portfolio website. Here
           you’ll learn about my journey as a software developer.
         </p>
-        <div className="btn">Hire Me</div>
+        <div className="btn"><a href="https://drive.google.com/file/d/1jb6pXWJrgIu6qNWSEnGozoAq3JuVPgzk/view?usp=drivesdk ">Resume</a></div>
       </div>
       {/* Add your icons and images */}
 
