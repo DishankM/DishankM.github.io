@@ -15,7 +15,7 @@
 .projectContainer {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  gap: 80px;
   width: 100%;
   padding: 20px 0;
 }
@@ -51,7 +51,7 @@
   
   .projectCard {
     width: 80%;
-    height: 550px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -75,12 +75,12 @@
   }
   
   .projectCard:hover::before {
-    transform: scaleX(1);
+    transform: scaleX(0.5);
   }
   
   .projectNumber {
     position: absolute;
-    font-size: 200px;
+    font-size: 150px;
     font-weight: 600;
     color: #fff;
     display: none;
@@ -89,13 +89,13 @@
   }
   
   .rightNumber {
-    top: -45px;
+    top: -60px;
     right: -45px;
   }
   
   .leftNumber {
-    top: -45px;
-    left: -45px;
+    top: -70px;
+    left: -60px;
   }
   
   .projectCard:hover .projectNumber {
@@ -116,7 +116,7 @@
   .projectContent {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     color: white;
     padding: 2em;
     bottom: 20%;
@@ -126,11 +126,13 @@
   }
   
   .leftProjectContent {
-    left: 5%;
+    left: 6%;
   }
   
   .rightProjectContent {
-    right: 5%;
+    right: 6%;
+    gap: 18px;
+    margin-left: 30px;
   }
   
   .projectSkillsContainer {
@@ -141,7 +143,7 @@
   }
   
   .projectSkill {
-    width: 40px;
+    width:30px;
   }
   .projectHeading {
     font-size: 50px;
@@ -150,7 +152,7 @@
   }
   
   .projectSubHeading {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     width: 70%;
   }
@@ -267,6 +269,9 @@
   
     .projectContent {
       padding: 1.5em;
+    }
+    .projectSkillsContainer{
+      display: none;
     }
   }
   

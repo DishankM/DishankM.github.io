@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.css';
-import d from '../assets/Images/userAsset/D logo.png';
+import d from '../assets/Images/userAsset/nameLOGO.png';
 
 const Header = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -9,7 +9,7 @@ const Header = () => {
     <header className="navbar">
       <div className="logo">
         <img src={d} alt="Logo" />
-        <h2 className="logoText">Dishank Mahajan</h2>
+        
       </div>
       
       <nav>

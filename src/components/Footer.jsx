@@ -14,7 +14,7 @@ const Footer = () => {
     <footer>
     <div class="footerContent">
         <p>© 2025 Dishenk Mahajan. All rights reserved.</p>
-        <div class="socialIcons">
+        <div className="socialIcons">
             <a href="https://www.linkedin.com/in/dishank-mahajan-56a0a3262/">
             <FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
 
@@ -28,8 +28,8 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} className="icon" /></a>
         </div>
     </div>
-    <div class="footerFadedText">Connect</div>
-    <div class="footerWaves"></div>
+    <div className="footerFadedText">Connect</div>
+    <div className="footerWaves"></div>
 </footer>
   );
 };

@@ -14,10 +14,7 @@ import ReduxLogo from "../assets/stack/Redux.svg";
 import VercelLogo from "../assets/stack/Vercel.svg";
 
 const Projects = () => {
-  // const goto = (e) => {
-  //   e.preventDefalut();
-    
-  // }
+  
   return (
     <section id="projects" className="projectSection">
       <h2 className="projectTitle">Projects</h2>
@@ -35,7 +32,6 @@ const Projects = () => {
               <img className="projectSkill" src={TailwindLogo} alt="Tailwind" />
               <img className="projectSkill" src={NodeJsLogo} alt="Node.js" />
               <img className="projectSkill" src={MongoDBLogo} alt="MongoDB" />
-              <img className="projectSkill" src={ReduxLogo} alt="Redux" />
               <img className="projectSkill" src={VercelLogo} alt="Vercel" />
             </div>
             <h2 className="projectHeading">Add To Card</h2>
@@ -43,13 +39,8 @@ const Projects = () => {
             This is a React-based E-commerce web application, typically called an "Add to Cart" project. which is use to Add to Cart" or "Remove Item."
             </p>
             <div className="btnGroup">
-              <button className="btn btnProject" ><a href="https://github.com/DishankM/study-mbbs-abroad">Know More</a></button>
-              <a href="">
-                <i title="GitHubLink" className="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" className="fa-solid fa-link icon"></i>
-              </a>
+              <button className="btn btnProject" ><a href="https://github.com/DishankM/AddToCard">Know More</a></button>
+              
             </div>
           </div>
         </div>
@@ -67,18 +58,16 @@ const Projects = () => {
               <img className="projectSkill" src={ReduxLogo} alt="Redux" />
               <img className="projectSkill" src={VercelLogo} alt="Vercel" />
             </div>
-            <h2 className="projectHeading">Password Generator</h2>
+            <h2 className="projectHeading">MBBS ABROAD Page</h2>
             <p className="projectSubHeading">
-              A Web application which generate random password.
+            This is a responsive landing page for the "Study MBBS Abroad" program, designed to help students explore MBBS opportunities in different countries. 
+            The page features country listings, program details, a lead generation form, and a user-friendly UI/UX.
             </p>
             <div className="btnGroup">
-              <button className="btn btnProject">Know More</button>
-              <a href="">
-                <i title="GitHubLink" className="fa-brands fa-github icon"></i>
-              </a>
-              <a href="">
-                <i title="Live Link" className="fa-solid fa-link icon"></i>
-              </a>
+              <button className="btn btnProject">
+                <a href="https://github.com/DishankM/study-mbbs-abroad">Know More</a>
+              </button>
+             
             </div>
           </div>
         </div>
