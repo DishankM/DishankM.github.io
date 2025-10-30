@@ -46,7 +46,7 @@ const About = () => {
               </h3>
               <div className="description">
                 <p>
-                  I'm a passionate <span className="highlight">third-year B.Tech CSE student</span> with a deep love for 
+                  I'm a passionate <span className="highlight">Fourth-Year B.Tech CSE Student</span> with a deep love for 
                   <span className="highlight"> web development</span> and 
                   <span className="highlight"> artificial intelligence</span>. 
                   My journey in tech is driven by curiosity and the desire to create 

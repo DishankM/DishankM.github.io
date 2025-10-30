@@ -67,7 +67,7 @@ const HeroSection = () => {
           </p>
           <div className="ctaButtons">
             <button className="btn primaryBtn">
-              <a href="https://drive.google.com/file/d/1jb6pXWJrgIu6qNWSEnGozoAq3JuVPgzk/view?usp=drivesdk">
+              <a href="https://drive.google.com/file/d/13lLzv6oyTQScdp6kgOEmFvACClrOS-fP/view?usp=drivesdk">
                 📄 View Resume
               </a>
             </button>

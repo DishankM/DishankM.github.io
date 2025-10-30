@@ -54,7 +54,7 @@ const ContactMe = () => {
               </div>
               <div className="infoContent">
                 <h3>Email Me</h3>
-                <p>dishankmahajan2004@gmail.com</p>
+                <p>dishankmahajan424@gmail.com</p>
                 <a href="mailto:dishankmahajan2004@gmail.com" className="infoLink">
                   Send Email <i className="fas fa-arrow-right"></i>
                 </a>
